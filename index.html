@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Descripcion" content="Comida rapida">
+    <meta name="autor" content="Alejandro Rodriguez Leal">
+    <title>Mac King</title>
+    <link rel="icon" type="image/png" sizes="16x16"  href="./img/favicon-16x16.png">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+   <header class="header">
+       <div class="container">
+           <div class="row">
+               <div class="four colums">
+                    <h1><img src="./img/logo.png" alt="">Mac King</h1>
+               </div>
+               <div class="two columns u-pull-rigth">
+                    <ul>
+                        <li class="submenu">
+                            <img src="./img/cart.png">
+                            <div id="carrito">
+                                <p class="vacio">Carrito vacio</p>
+                                <table class="u-full-width">
+                                    <thead>
+                                        <tr>
+                                            <th>Imagen</th>
+                                            <th>Platos</th>
+                                            <th>Precio</th>
+                                        </tr>
+                                    </thead>
+                                    <tbody>
+                                        <tr>
+                                            <td>
+                                                <img src="./img/platillo1.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa con helado</td>
+                                            <td>15€</td>
+                                            <td><a href="a" class="borrar plato">X</a></td>
+                                        </tr>
+                                        <tr>
+                                            <td>
+                                                <img src="./img/platillo2.jpg" width="100">
+                                            </td>
+                                            <td>Hamburguesa sencilla</td>
+                                            <td>15€</td>
+                                            <td><a href="a" class="borrar plato">X</a></td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <a href="a" class="button u-full-width">vaciar carrito</a>
+                            </div>
+                        </li>
+                    </ul>
+               </div>
+            </div>
+        </div>
+   </header>
+   <div class="hero">
+       <div class="container">
+           <div class="row">
+               <div class="six columns">
+                   <div class="contenido-hero">
+                       <h2>Prueba una hamburguesa</h2>
+                       <p>Todas las hamburguesas a 10€</p>
+                       <form>
+                           <input class="u-full-width" type="text" placeholder="¿Que te gustaria probar?" id="buscador">
+                           <input type="submit" class="submit-buscador">
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   </div>
+   <div class="barra">
+       <div class="container">
+           <div class="row">
+               <div class="four columns icono icono1">
+                   <p>100 Platos diferentes<br>
+                      Explora los nuevos platos</p>
+               </div>
+               <div class="four columns icono icono2">
+                <p>Cheff expertos<br>
+                   Prueba las nuevas conbinaciones</p>
+               </div>
+               <div class="four columns icono icono3">
+                <p>Bebida ilimitada<br>
+                   Prueba tu bebida favorita</p>
+                </div>
+           </div>
+       </div>
+   </div>
+   <div class="lista-platos" class="container">
+       <h1 class="encabezado">Pedidos en Linea</h1>
+       <div class="row">
+           <div class="four columns">
+               <div class="card">
+                   <img src="./img/platillo1.jpg" class="imagen-plato u-full-width">
+                   <div class="info-card">
+                       <h4>Menu Mac vegetal con patatas</h4>
+                       <p>Bebida ilimitada</p>
+                       <img src="./img/estrellas.png" class="estrella-img">
+                       <div><p class="precio">19€</p></div>
+                       <div class="right-div"><p class="rigth">10€</p></div>
+                       <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="1">Agregar al carrito</a>
+                   </div>
+               </div>
+           </div>
+           <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo2.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Whooper + patatas + salsa a elegir</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">20€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="2">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo3.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa pollo con patas</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">20€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="3">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+             <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo4.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla con todo</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">18€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="4">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo5.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa con todo + patatas</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">21€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="5">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                 <div class="card">
+                    <img src="./img/platillo1.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Menu mac pollo</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">24,99€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="6">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="four columns">
+                 <div class="card">
+                    <img src="./img/platillo2.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa con queso + patatas</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">20€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="7">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo3.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa pollo + patatas</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">17€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="8">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo4.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa ternera</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">16€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="9">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo5.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa sencilla</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">12€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="10">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo1.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa + patatas + helado</h4>
+                        <p>Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">24,99€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="11">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+            <div class="four columns">
+                <div class="card">
+                    <img src="./img/platillo2.jpg" class="imagen-plato u-full-width">
+                    <div class="info-card">
+                        <h4>Hamburguesa con helado</h4>
+                        <p class="bebida-ilimitada">Bebida ilimitada</p>
+                        <img src="./img/estrellas.png" class="estrella-img">
+                        <div><p class="precio">15.95€</p></div>
+                        <div class="right-div"><p class="rigth">10€</p></div>
+                        <a href="#" class="u-full-width button-primary button input agregar carrito" data-id="12">Agregar al carrito</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="../contenido/pedidos.html">Pedidos a domicilio</a>
+                        <a class="enlace" href="../contenido/menu.html">Menu</a>
+                        <a class="enlace" href="../contenido/bebidas.html">Bebidas</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="https://www.google.com/maps/place/06410+Santa+Amalia,+Badajoz/@39.0115737,-6.0201192,15z/data=!3m1!4b1!4m5!3m4!1s0xd144890ec9e7c43:0x7614db9bf525e4c9!8m2!3d39.0117966!4d-6.0099104">Ubicacion</a>
+                        <a class="enlace" href="tel:+34624252533">Telefono de contacto</a>
+                        <a class="enlace" href="../contenido/nosotros.html">¿Quienes somos?</a>
+                    </nav>
+                </div>
+                <div class="four columns">
+                    <nav class="menu">
+                        <a class="enlace" href="https://www.instagram.com">Instagram</a>
+                        <a class="enlace" href="https://es-es.facebook.com">Facebook</a>
+                        <a class="enlace" href="https://twitter.com/?lang=es">Twitter</a>
+                    </nav>
+                </div>
+            </div>
+        </div>
+        <h2 class="titulo-final">&copy; Mac King</h2>
+    </footer>
+</body>
+</html>

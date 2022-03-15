@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu</title>
+<body>
+    <h1 class="encabezado">Pedidos a domicilio</h1>
+    <form action="/action_page.php">
+        <fieldset>
+          <legend>Datos Personales</legend>
+          <label for="fname">Nombre:</label>
+           <input type="text" id="fname" name="fname" required>
+          <label for="lname">Apellido:</label required>
+            <input type="text" id="lname" name="lname">  
+        <br><br>
+          <label for="lname">Calle</label>
+          <select name="Calle" id="Calle">
+            <option value="Magdalena">Magdalena</option>
+            <option value="Olivo">Olivo</option>
+            <option value="Jardin">Jardin</option>
+          </select><br><br>
+          <label for="edad">Edad</label>
+            <input type="number" id="Edad" name="Edad" pattern="[18-65]{2}">
+          <label for="Fecha de nacimiento">Fecha de nacimiento</label>
+            <input type="date" name="Fecha"><br><br>
+          <label for="fname">Pago: </label>
+            <input type="radio" id="H" name="fav_language" value="H">
+        <label for="html">Tarjeta</label>
+            <input type="radio" id="M" name="fav_language" value="M">
+        <label for="html">Efectivo</label>
+        </fieldset><br>
+        </form>
+        <input type="submit">
+<p>Haga clic en el botón "Enviar" y los datos del formulario se enviarán</p>
+<a href="../index.html" class="button u-full-width">Volver al inicio</a>
+</body>
+</html>
